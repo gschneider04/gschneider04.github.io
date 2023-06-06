@@ -1,0 +1,91 @@
+body {
+background-image: url(https://i.ibb.co/grHtr2b/fotis-fotopoulos-Du-HKo-V44prg-unsplash.jpg);
+}
+
+header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.profile-img{
+    border-radius: 10rem;
+    width: 12rem;
+    height: 12rem;
+
+}
+
+main {
+    margin-top: 5rem; 
+}
+
+.img-insta {
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+input{
+    border-radius: 2rem;
+    width: 30rem;
+    height: 5rem;
+
+    background-color: rgb(65, 54, 224);
+    border: none;
+    animation: none;
+
+    color: white;
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+.insta-btt {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.git-btt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 3rem;
+}
+
+.linkedin-btt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 3rem;   
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 12rem;
+}
+
+.insta-img {
+    margin: 1rem;
+}
+
+.git-img {
+    margin: 1rem;
+}
+
+.linkedin-img {
+    margin: 1rem;
+}
+
+input:hover {
+    background-color: grey;
+}

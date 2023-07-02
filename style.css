@@ -1,5 +1,6 @@
 body {
-background-image: url(https://i.ibb.co/grHtr2b/fotis-fotopoulos-Du-HKo-V44prg-unsplash.jpg);
+    background-size: cover;
+    background-image: url('https://i.ibb.co/JQq4N2G/fotis-fotopoulos-Du-HKo-V44prg-unsplash.jpg');
 }
 
 header {
@@ -42,28 +43,12 @@ input{
     font-weight: 100;
 }
 
-.insta-btt {
+.insta-btt, .linkedin-btt, .git-btt {
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     margin: 3rem;
-}
-
-.git-btt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 3rem;
-}
-
-.linkedin-btt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 3rem;   
 }
 
 footer {
@@ -74,15 +59,7 @@ footer {
     margin: 12rem;
 }
 
-.insta-img {
-    margin: 1rem;
-}
-
-.git-img {
-    margin: 1rem;
-}
-
-.linkedin-img {
+.insta-img, .git-img, .linkedin-img {
     margin: 1rem;
 }
 
